@@ -20,7 +20,7 @@ def fetch_prices(tickers, start_date, end_date):
     # Initialize Tiingo client with API key
     config = {
         'session': True,
-        'api_key': '4275ac9f1e202f2125d55a7b486d5c13d32ad2e5'  
+        'api_key': '#INSERT YOUR API'  
     }
     client = TiingoClient(config)
 
